@@ -21,3 +21,6 @@ It gives commit hash key usually the code for directly seeing the commit at any 
 (HEAD -> main) this is the displayed output So Head is always like at present Where is the code and it points to one branch that is main.
 You can create branches with the command git branch branchname.
 This creates the branch with a branch name.
+Then to switch to the new branch you can enter a command git switch branchname.
+It switches to the new Branch.
+You can verify by typing the command git log --all --graph
