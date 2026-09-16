@@ -28,3 +28,8 @@ Now as you switch to any branch and start changing the code there when you are i
 And again you add the file there at present branch and then commit the files.
 When you shift to the main branch again like git switch main. You dont see the changes doen in theq branch.
 This is because when a single big project is being done many features are done in many branches and when testing everyhting is doen then it is pushed to the main branch.
+So now When its time to merge the contents from the branch to the main root.
+What do we do
+First move the HEAD to the main root
+git switch main, it switches to the main root. Then whatever branch you want to merge to the current main branch you just type git merge branchname this comannd merges the branch to the amin branch.
+Beauty if git is i was in the branch and i made a file change. and without commting that code to the code i thought to switch the head to the main root. git warned me see there are files or the code you changed when you want to switch to the main root whatever you worked while you were in thsi branch might be lost, so please commit the code and then switch.
