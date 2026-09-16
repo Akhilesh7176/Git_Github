@@ -24,3 +24,7 @@ This creates the branch with a branch name.
 Then to switch to the new branch you can enter a command git switch branchname.
 It switches to the new Branch.
 You can verify by typing the command git log --all --graph
+Now as you switch to any branch and start changing the code there when you are in that particular branch. Then the code changes and everything is recorded and tracked in that particular branch.
+And again you add the file there at present branch and then commit the files.
+When you shift to the main branch again like git switch main. You dont see the changes doen in theq branch.
+This is because when a single big project is being done many features are done in many branches and when testing everyhting is doen then it is pushed to the main branch.
