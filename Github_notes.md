@@ -14,3 +14,10 @@ After Initialising you can see at the end of the each file U symbol comes which 
 So that means git is not tracking the particular files and the folder.
 After that git add . adds all the folders and files present in the folder. or you can add a particular file as well by typing git add filename
 And whenever you are changing anything in the file or the folder you can see M at the end of the file which indicates Modified. Git tracks everything and every change.
+To store the code in the git we should write a command such as git commit -m "Message" this stores the code in the git.
+To see the tree of the git version control like details when is the commit and all
+git log --all --graph is the command
+It gives commit hash key usually the code for directly seeing the commit at any point of time because if i belive many changes happen and whenever any website or product gets a bug or a problem to role out to the previous version they need the exact commit or previous build so that can roll back.
+(HEAD -> main) this is the displayed output So Head is always like at present Where is the code and it points to one branch that is main.
+You can create branches with the command git branch branchname.
+This creates the branch with a branch name.
