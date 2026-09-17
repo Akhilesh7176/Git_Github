@@ -32,7 +32,7 @@ So now When its time to merge the contents from the branch to the main root.\
 What do we do\
 First move the HEAD to the main root\
 git switch main, it switches to the main root. Then whatever branch you want to merge to the current main branch you just type git merge branchname this comannd merges the branch to the amin branch.\
-Beauty if git is i was in the branch and i made a file change. and without commting that code to the code i thought to switch the head to the main root. git warned me see there are files or the code you changed when you want to switch to the main root whatever you worked while you were in thsi branch might be lost, so please commit the code and then switch.\
+Beauty if git was in the branch and i made a file change. and without commting that code to the code i thought to switch the head to the main root. git warned me see there are files or the code you changed when you want to switch to the main root whatever you worked while you were in thsi branch might be lost, so please commit the code and then switch.\
 git switch hashkey also switches the branch and the branch stays the same eventhough you merged the code from the branch. While committing the code always add the message otherwise git warns for that aswell.\
 type q for exiting the tree mode\
 Here we typed type q for exiting tree\
@@ -47,4 +47,8 @@ Now when we have to save the code storage in the remote repository. We need to o
 First we have to Open a remote repository to the code base we are going to attach the code too.\
 After creating the repository. We have the option of adding git ignore file or not because that file is important when there are huge projects and in web development we saw where files will have the contents of node modules and all which are various files needed for the project to run. Those we need not make it to the git or github so we just add the file names to the .gitignore file.
 git remote add origin is the command\
-Here the command indicates remote is remote repository. Origin is like conevntion naming.
+Here the command indicates remote is remote repository. Origin is like conevntion naming.\
+We have something called git clone. This is like when we have an online repository and we want it to be in our local desktop then we clone the entire repository.
+now we have git pull as a command. when there is anothe rcollaborator and he pushed the code to the branch where you worked on an dyou are also tryung to push. But if he pushed the code already then when you dod the changes and commit the code git warns you because git commit is ahead of what we are trying to do. So better first do git pull --rebase. then if the merge changes we can clear the changes and then we can commit. If there are changes we need to abort the pull. git rebase abort.\
+Then do the changes and then commit the code.\
+git checkout is like it switches the contenst and files to the branch mentioned.\
