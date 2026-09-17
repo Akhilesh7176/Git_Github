@@ -38,3 +38,7 @@ type q for exiting the tree mode
 Here we typed type q for exiting tree
 Okay now we understood how it looks. We tried to see the changes in the same line of 37. In main root we had typed something and when we created another branch and then typed something else in line 37 then when we go to the main root and try to merge the branch file to the main root it asked for whether what to do take the incoming change or the current change or tale both and keep first one top or bottom so we have veriety of changes being done by the git which is helpful and we know how and what to accept all the things.
 Here is the image of Merge conflict
+Here we can have the image let's see
+![This image shows the Merge conflicts](Images/Showing_Merge_Conflict.png)
+![This image shows what changes to be accpeted from the conflicts](Images/Incoming_and_Current_Changes.png)
+![This image shows what you accepted and the clcik the complete merge](Images/Accept_the_desired_change.png)
