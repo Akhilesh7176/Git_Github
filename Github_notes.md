@@ -1,4 +1,4 @@
-Here we write the notes for the Git and Github
+Here we write the notes for the Git and Github\
 Git is a version control system. To explain in laymen terms, it is like storage for code. And Developers can contribute ti a single codebase. Codebase Reviews Merging and Many can be done.
 Git should be installed in the system. to check that type the command in the terminal
 git version git version 2.50.1 (Apple Git-155)
