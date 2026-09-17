@@ -42,3 +42,6 @@ Here we can have the image let's see
 ![This image shows the Merge conflicts](Images/Showing_Merge_Conflict.png)
 ![This image shows what changes to be accpeted from the conflicts](Images/Incoming_and_Current_Changes.png)
 ![This image shows what you accepted and the clcik the complete merge](Images/Accept_the_desired_change.png)
+Until now we have everything in the local storage.
+Now when we have to save the code storage in the remote repository. We need to open a github account.
+First we have to Open a remote repository to the code base we are going to attach the code too.
