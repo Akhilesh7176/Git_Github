@@ -37,3 +37,4 @@ git switch hashkey also switches the branch and the branch stays the same eventh
 type q for exiting the tree mode
 Here we typed type q for exiting tree
 Okay now we understood how it looks. We tried to see the changes in the same line of 37. In main root we had typed something and when we created another branch and then typed something else in line 37 then when we go to the main root and try to merge the branch file to the main root it asked for whether what to do take the incoming change or the current change or tale both and keep first one top or bottom so we have veriety of changes being done by the git which is helpful and we know how and what to accept all the things.
+Here is the image of Merge conflict
