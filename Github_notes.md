@@ -34,3 +34,4 @@ First move the HEAD to the main root
 git switch main, it switches to the main root. Then whatever branch you want to merge to the current main branch you just type git merge branchname this comannd merges the branch to the amin branch.
 Beauty if git is i was in the branch and i made a file change. and without commting that code to the code i thought to switch the head to the main root. git warned me see there are files or the code you changed when you want to switch to the main root whatever you worked while you were in thsi branch might be lost, so please commit the code and then switch.
 git switch hashkey also switches the branch and the branch stays the same eventhough you merged the code from the branch. While committing the code always add the message otherwise git warns for that aswell.
+Here we typed type q for exiting tree
